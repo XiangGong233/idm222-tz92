@@ -6,6 +6,7 @@
 
 @import 'css/aboutme.css';
 @import 'css/plannerdesign.css';
+@import 'responsive.css';
 
 * {
   box-sizing: border-box;
