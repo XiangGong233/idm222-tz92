@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'montserrat';
+    src: url('font/montserratalternates-medium-webfont.woff2') format('woff2'),
+         url('font/montserratalternates-medium-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('font/montserrat-bold-webfont.woff2') format('woff2'),
+         url('font/montserrat-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('font/montserratalternates-regular-webfont.woff2') format('woff2'),
+         url('font/montserratalternates-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('font/montserratalternates-italic-webfont.woff2') format('woff2'),
+         url('font/montserratalternates-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('font/montserratalternates-light-webfont.woff2') format('woff2'),
+         url('font/montserratalternates-light-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('font/montserratalternates-lightitalic-webfont.woff2') format('woff2'),
+         url('font/montserratalternates-lightitalic-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: italic;
+
+}
+
+
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('font/montserratalternates-bolditalic-webfont.woff2') format('woff2'),
+         url('font/montserratalternates-bolditalic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'source_sans';
+    src: url('font/sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('font/sourcesanspro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'source_sans';
+    src: url('font/sourcesanspro-it-webfont.woff2') format('woff2'),
+         url('font/sourcesanspro-it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'source_sans';
+    src: url('font/sourcesanspro-bold-webfont.woff2') format('woff2'),
+         url('font/sourcesanspro-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'source_sans';
+    src: url('font/sourcesanspro-boldit-webfont.woff2') format('woff2'),
+         url('font/sourcesanspro-boldit-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+
+}
