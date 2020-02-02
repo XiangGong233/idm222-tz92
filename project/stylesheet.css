@@ -237,41 +237,40 @@ a:hover {
 
 @media only screen and (min-width: 768px) {
 
+  .all {
+    display: grid;
+    /* grid-gap: 10px 10px; */
+    grid-template-columns: [c1] 1fr [c2] 1fr [c3] 1fr [c4] 1fr [c5] 1fr;
+    
+    grid-template-rows: [r1] 1fr [r2] 1fr [r3] 1fr [r4] 1fr [r5] 1fr;
+  }
+
 .header_image01 {
-  grid-area: headerimage;
+  grid-area: hi01;
 }
 .navigation {
-  grid-area: nav;
+  /* grid-area: header; */
+  grid-area:  r1 / c1 / r2 / c5;
+
+  
 }
 .indexcard {
   grid-area: infor;
 }
-.container {
-  grid-area: image;
+.c1 {
+  grid-area: image1;
+}
+.c2 {
+  grid-area: image2;
+}
+.c3 {
+  grid-area: image3;
 }
 footer {
   grid-area: footer;
 }
 #notop {
   grid-area: free;
-}
-  .all {
-    display: grid;
-    grid-template-columns: repeat(10,1fr);
-    grid-template-rows: auto;
-    grid-template-areas: 
-    'nav nav nav nav nav nav nav nav nav nav'
-    ' . headerimage headerimage headerimage . . infor infor infor . '
-    ''
-    'footer footer footer'
-  }
-
-  .header_image01 {
-    max-width: 100%;
-    width: 100%; 
-    height: 250px; 
-    overflow: hidden;
-    border: none;
 }
 
 
