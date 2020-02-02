@@ -69,17 +69,20 @@ video {
 }
 
 .container02 {
-  float: left;
-  margin-left: 1rem;
-  max-width: 50%;
+
+margin: 1rem;
   padding: 0.2rem;
-  width: 44%;
+  width: 65%;
 }
 
 
 
 .box02 {
   padding: 0 !important;
+  display: flex;  
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
 }
 
 .box02 img {
@@ -96,6 +99,11 @@ video {
 
 /* main finish */
 
+@media (min-width: 480px) {
+  .container02 {
+    max-width: 280px;
+  }
 
+}
 
 
