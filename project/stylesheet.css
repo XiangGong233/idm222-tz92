@@ -20,7 +20,6 @@
 html {
   color: #2b2b2b;
   font-size: 100%;
-  
 }
 
 .header_image01, img { 
@@ -30,36 +29,12 @@ html {
 .header_image01 {
   border: 5px double black;
 }
-.header_image02 {
+/* .header_image02 {
   display: none;
-}
+} */
 
 
-@media (min-width: 480px) {
-  
-  .header_image01 {
-    width: 100%; 
-    height: 250px; 
-    overflow: hidden;
-    object-fit: none;
-}
 
-
-}
-
-@media (min-width: 768px) {
-  .header_image01 {
-    display: none;
-  }
-.header_image02 {
-  display: initial;
-  max-width: 50%;
-}
-figure {
-  margin: 3rem 10rem;
-
-}
-}
 
 
 
@@ -99,6 +74,11 @@ p {
   margin: 1rem;
   text-align: center;
 }
+
+
+
+
+
 
 /* header start */
 .header_image {
@@ -164,64 +144,9 @@ li {
   font-family: 'Parisienne', cursive;
 }
 
-@media (min-width: 480px) {
-  .tiange01 {
-    text-align: center;
-  }
-  .tiange02 {
-    display: none;
-  }
-  .navigation {
-      flex-direction: row;
-  }
-
-  #home, #aboutme, #plannerdesign {
-    width: 100%;
-  }
 
 
 
-
-}
-
-@media (min-width: 768px) {
-  .tiange01 {
-    display: none;
-  }
-  .tiange02 {
-    background-color: rgb(255, 211, 115);
-    display: initial;
-    font-size: 1.1rem;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-
-
-  .navigation {
-      background-color: rgb(255, 227, 168);
-      flex-direction: row;
-      font-size: 1.1rem;
-      justify-content: flex-start;
-  }
-  #home, #aboutme, #plannerdesign {
-   background-color: transparent;
-   max-width: 130px;
-   text-align: center;
-  }
-
-  #home :hover{
-    background-color: rgb(255, 255, 200);
-  }
-  
-  #aboutme :hover{
-    background-color: rgb(255, 255, 180);
-  }
-  
-  #plannerdesign :hover{
-    background-color: rgb(253, 255, 150);
-  }
-}
 
 /* header finish */
 
@@ -281,4 +206,111 @@ a:visited {
 a:hover {
   color: rgb(46, 46, 46);
 }
+
+
+@media (min-width: 480px) {
+  
+  .header_image01 {
+    width: 100%; 
+    height: 250px; 
+    overflow: hidden;
+}
+.tiange01 {
+  text-align: center;
+}
+.tiange02 {
+  display: none;
+}
+.navigation {
+    flex-direction: row;
+}
+
+#home, #aboutme, #plannerdesign {
+  width: 100%;
+}
+
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+.header_image01 {
+  grid-area: headerimage;
+}
+.navigation {
+  grid-area: nav;
+}
+.indexcard {
+  grid-area: infor;
+}
+.container {
+  grid-area: image;
+}
+footer {
+  grid-area: footer;
+}
+#notop {
+  grid-area: free;
+}
+  .all {
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'nav nav nav nav nav nav nav nav nav nav'
+    ' . headerimage headerimage headerimage . . infor infor infor . '
+    ''
+    'footer footer footer'
+  }
+
+  .header_image01 {
+    max-width: 100%;
+    width: 100%; 
+    height: 250px; 
+    overflow: hidden;
+    border: none;
+}
+
+
+.tiange01 {
+  display: none;
+}
+.tiange02 {
+  background-color: rgb(255, 211, 115);
+  display: initial;
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+.navigation {
+    background-color: rgb(255, 227, 168);
+    flex-direction: row;
+    font-size: 1.1rem;
+    justify-content: flex-start;
+}
+#home, #aboutme, #plannerdesign {
+ background-color: transparent;
+ max-width: 130px;
+ text-align: center;
+}
+
+#home :hover{
+  background-color: rgb(255, 255, 200);
+}
+
+#aboutme :hover{
+  background-color: rgb(255, 255, 180);
+}
+
+#plannerdesign :hover{
+  background-color: rgb(253, 255, 150);
+}
+}
+
 
