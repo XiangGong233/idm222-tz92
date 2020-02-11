@@ -209,7 +209,12 @@ a:hover {
 
 /* responsive */
 
+@media (min-width: 0px) {
+  .header-banner {
+    display: none;
+  }
 
+}
 
 @media (min-width: 480px) {
   .header_image01 {
@@ -370,6 +375,63 @@ text-decoration: none;
 
 @media (min-width: 960px) {
 
+/* header banner start */
+  .header-banner {
+    display: block;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/washitape03.jpg) no-repeat;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-color: #cccccc;
+  }
+  
+  .benner-info p {
+    font-size: 2rem;
+  }
+
+  .banner-content {
+    position: relative;  
+    padding-top: 15rem;
+  }
+  
+  .banner-border {
+    width: 420px;
+    border: 2px solid rgba(255, 255, 255, 0.75);
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .banner-border .banner-info {
+    background: rgba(255, 255, 255, 0.75);
+    width: 396px;
+    margin: 0;
+    padding: 50px 0;
+  }
+  
+  .banner-info {
+    background: rgba(255, 255, 255, 0.75);
+    width: 400px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+  
+  .banner-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .banner-info p {
+    margin-bottom: 0;
+  }
+
+/* header banner end */
+
+
+.all {
+  margin:0;
+}
+
+
 .header_image01 {
   display: none;
 }
@@ -377,8 +439,9 @@ text-decoration: none;
 .tiange01 {
   display: none;
 }
+
+/* navigation bar start */
 .tiange02 {
-  /* background-color: rgb(255, 211, 115); */
   display: initial;
   font-size: 1.1rem;
   margin: 0;
@@ -393,7 +456,6 @@ text-decoration: none;
 
 
 .navigation {
-    /* background-color: rgb(255, 227, 168); */
     flex-direction: row;
     font-size: 1.2rem;
     font-weight: 600;
