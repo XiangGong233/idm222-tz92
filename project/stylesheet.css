@@ -684,6 +684,7 @@ main {
   border-radius: 0;
   justify-self: end;
   align-self: center;
+  transition-duration: 1s;
 }
 
 #topmargin:hover {
@@ -842,7 +843,7 @@ img {
   margin: 1.5rem auto!important;
 }
 
-
+/* vh */
 }
 
 
