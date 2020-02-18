@@ -71,7 +71,7 @@ main {
 .heart {
     grid-area: 3/2/4/3;
     position: relative;
-    margin: 1rem auto!important;
+    margin: 2rem auto!important;
     max-width: 80%!important;
 }
 
@@ -108,13 +108,13 @@ main {
 #imageabout03{
     grid-area: 6/4/7/5;
     position: relative;
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 
 #imageabout04{
     grid-area: 6/4/7/5;
     position: relative;
-    margin-top: 22rem;
+    margin-top: 25rem;
 }
 
 #contectinfo {
@@ -127,10 +127,9 @@ main {
     padding-left: 0!important;
 }
 
-/* #card04 {
-    grid-area: 7/2/8/5;
-
-} */
+#card04 {
+    margin-left: 14rem;
+}
 
 footer {
     grid-area: 8/1/9/6;
@@ -148,3 +147,22 @@ footer {
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
