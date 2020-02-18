@@ -163,6 +163,7 @@ li {
 #bottommargin {
   margin-bottom: 1.2rem;;
 }
+
 .indexcard {
   margin: 0.5rem;
   padding: 0.5rem;
@@ -557,8 +558,10 @@ main {
 /* biaoqingbao image class*/
 /* biaoqingbao image class*/
 
-.index {
-  display: inline-grid;
+
+
+#topmargin {
+  margin: 0;
   border-radius: 15px;
   box-shadow: 3px 3px 3px rgb(209, 209, 209);
   margin: 0rem;
@@ -566,10 +569,6 @@ main {
   grid-area: 2 / 2 / 3 / 3;
   justify-self: center;
   align-items: center;
-}
-
-#topmargin {
-  margin: 0;
 }
 
 /* paragraph box */

@@ -29,7 +29,9 @@
 }
 
 
-
+.hidden {
+    display: none!important;
+}
 
 
 
@@ -37,23 +39,111 @@
 
 
 @media (min-width: 768px) {
+.all {
+    background-color: transparent;
+    box-shadow: none!important;
+}
 
-    main {
-        height: 100%;
+main {
+    box-shadow: none!important;
+}
+
+    .mainabout {
+        height: 100vh;
+        width: 100vw;
         display: grid;
         grid-template-columns: 50px 1fr 1fr 1fr 50px;
-        grid-template-rows: 30px 1fr 0.5fr 0.5fr 1fr 0.8fr 30px;
-        /* grid-gap: 10px; */
+        grid-template-rows: 25px 40px 1fr 0.5fr 0.5fr 1fr 0.8fr 0.8fr 100px;
+        grid-gap: 10px;
       }    
 
 .header_h2:first-child {
     grid-area: 2/2/3/4;
-    z-index: 99;
+    padding: 0.5rem;
 }
 
-#heart {
-    grid-area: 2/2/3/4;
+.index {
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgb(209, 209, 209);
+    max-width: 30%;
+  }
+
+.heart {
+    grid-area: 3/2/4/3;
+    position: relative;
+    margin: 1rem auto!important;
+    max-width: 80%!important;
 }
+
+.card {
+    padding: 1.8rem;
+}
+
+#lesscard {
+    grid-area: 3/3/4/5;
+}
+
+#card01 {
+    grid-area: 4/2/5/4;
+}
+
+#card02 {
+    grid-area: 5/3/6/5;
+}
+
+#card03 {
+    grid-area: 6/2/7/4;
+}
+
+#imageabout01 {
+    grid-area: 4/4/5/5;
+    margin-top: 3rem;
+}
+
+#imageabout02 {
+    grid-area: 5/2/6/3;
+    margin-top: 4rem;
+}
+
+#imageabout03{
+    grid-area: 6/4/7/5;
+    position: relative;
+    margin-top: 5rem;
+}
+
+#imageabout04{
+    grid-area: 6/4/7/5;
+    position: relative;
+    margin-top: 22rem;
+}
+
+#contectinfo {
+    grid-area: 7/2/8/5;
+    margin-top: 1rem;
+}
+
+#contectinfo h2 {
+    margin-bottom: 1.5rem;
+    padding-left: 0!important;
+}
+
+/* #card04 {
+    grid-area: 7/2/8/5;
+
+} */
+
+footer {
+    grid-area: 8/1/9/6;
+}
+
+
+
+
+
+
+
+
+
 
 
 
