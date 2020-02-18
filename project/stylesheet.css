@@ -213,6 +213,8 @@ a:hover {
   
 }
 
+
+
 /* responsive */
 
 @media (min-width: 0px) {
@@ -226,6 +228,8 @@ a:hover {
   background-color: #cccccc;
 }
 
+
+
 .benner-info p {
   font-size: 1rem;
 }
@@ -234,6 +238,8 @@ a:hover {
   position: relative;  
   padding-top: 12rem;
 }
+
+
 
 .banner-border {
   width: 80%;
@@ -263,7 +269,42 @@ a:hover {
   margin-top: 1.3rem;
 }
 
-/* header banner end */
+
+/* -------------------
+other pages
+----------------- */
+
+
+.inpage{
+  display: block;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/washitape03.jpg) no-repeat;
+  height: 200px !important;
+  background-size: cover;
+  background-position: top;
+  background-color: #cccccc;
+}
+
+.inpagetext {
+  position: relative;  
+  padding-top: 2rem;
+}
+
+.inpagetext div div h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.inpagetext div div {
+  padding: 1rem!important;
+}
+
+/* ------------------------------------ */
+/* ----------------------
+header banner end
+----------------------- */
+/* ---------------------------- */
+
+
   #header001 {
     display: none;
   }
