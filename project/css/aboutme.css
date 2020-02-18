@@ -28,3 +28,33 @@
     text-align: left;
 }
 
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+    main {
+        height: 100%;
+        display: grid;
+        grid-template-columns: 50px 1fr 1fr 1fr 50px;
+        grid-template-rows: 30px 1fr 0.5fr 0.5fr 1fr 0.8fr 30px;
+        /* grid-gap: 10px; */
+      }    
+
+.header_h2:first-child {
+    grid-area: 2/2/3/4;
+    z-index: 99;
+}
+
+#heart {
+    grid-area: 2/2/3/4;
+}
+
+
+
+}

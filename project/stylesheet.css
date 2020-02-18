@@ -285,18 +285,19 @@ other pages
 }
 
 .inpagetext {
+  display: none;
   position: relative;  
   padding-top: 2rem;
 }
 
-.inpagetext div div h1 {
+/* .inpagetext div div h1 {
   font-size: 20px;
   margin: 0;
 }
 
 .inpagetext div div {
   padding: 1rem!important;
-}
+} */
 
 /* ------------------------------------ */
 /* ----------------------
@@ -367,6 +368,37 @@ header banner end
   .banner-info p {
     margin-bottom: 0;
   }
+
+/* -------------------
+other pages
+----------------- */
+
+
+.inpage{
+  display: block;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/washitape03.jpg) no-repeat;
+  height: 200px !important;
+  background-size: cover;
+  background-position: bottom;
+  background-color: #cccccc;
+}
+
+.inpagetext {
+  display: none;
+  position: relative;  
+  padding-top: 2rem;
+}
+
+/* .inpagetext div div h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.inpagetext div div {
+  padding: 1rem!important;
+} */
+
+
 
 /* header banner end */
 
@@ -455,6 +487,37 @@ header banner end
     margin-bottom: 0;
   }
 
+/* -------------------
+other pages
+----------------- */
+
+
+.inpage{
+  display: block;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/washitape03.jpg) no-repeat;
+  height: 200px !important;
+  background-size: cover;
+  background-position: bottom;
+  background-color: #cccccc;
+}
+
+.inpagetext {
+  display: none;
+  position: relative;  
+  padding-top: 2rem;
+}
+
+/* .inpagetext div div h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.inpagetext div div {
+  padding: 1rem!important;
+} */
+
+
+
 /* header banner end */
   
   /* .header_image01 {
@@ -535,7 +598,7 @@ main {
 /* planner img */
 /* planner img */
 
-.box  {
+.box-box  {
   display: grid;
   grid-template-columns:  1fr 1fr 1fr ;
   grid-template-rows: auto;
@@ -632,6 +695,37 @@ text-decoration: none;
   .banner-info p {
     margin-bottom: 0;
   }
+
+/* -------------------
+other pages
+----------------- */
+
+
+.inpage{
+  display: block;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/washitape03.jpg) no-repeat;
+  height: 300px !important;
+  background-size: cover;
+  background-position: bottom;
+  background-color: #cccccc;
+}
+
+.inpagetext {
+  display: none;
+  position: relative;  
+  padding-top: 6rem;
+}
+/* 
+.inpagetext div div h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.inpagetext div div {
+  padding: 1rem!important;
+} */
+
+
 
 /* header banner end */
 
@@ -755,7 +849,7 @@ h2 {
   padding: 0;
 }
 
-.box  {
+.box-box  {
   display: grid;
   grid-template-columns:  1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
@@ -771,7 +865,7 @@ h2 {
 
 
 
-.box img {
+.box-box img {
   border-radius: 0;
   box-shadow: none;
   padding: 0rem 0rem 0rem;
