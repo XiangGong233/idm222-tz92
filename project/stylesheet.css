@@ -291,14 +291,7 @@ other pages
   padding-top: 2rem;
 }
 
-/* .inpagetext div div h1 {
-  font-size: 20px;
-  margin: 0;
-}
 
-.inpagetext div div {
-  padding: 1rem!important;
-} */
 
 /* ------------------------------------ */
 /* ----------------------
@@ -980,12 +973,40 @@ img {
 }
 
 /* vh */
+
+/* ---------------------
+sao dong xi 
+----------------------- */
+
+
+
+
+
+
 }
 
-
   
+@media (min-width: 1300px) {
 
+#topmargin {
+  grid-area: 2 / 2 / 3 / 4 ;
+  border: 3px solid rgb(75, 75, 75, 0.6)  ;
+  padding: 1rem 1rem 2.5rem;
+  border-radius: 0;
+  /* justify-self: end; */
+  align-self: normal;
+  justify-self: normal;
+  max-width: 50%;
+  margin-top: 2rem;
+  margin-left: 15rem;
 
+}
 
+.text {
+max-width: 60%;
+margin-left: 5rem;
+margin-top: 2rem;
+}
 
+}
 
