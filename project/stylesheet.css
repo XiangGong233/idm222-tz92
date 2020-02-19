@@ -20,6 +20,8 @@
 html {
   color: #2b2b2b;
   font-size: 100%;
+  scroll-behavior: smooth;
+
 }
 
 .header_image01, img { 
@@ -291,7 +293,26 @@ other pages
   padding-top: 2rem;
 }
 
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {
+     transform: translateY(0);
+  }
+	40% {
+     transform: translateY(-30px);
+  }
+	60% {
+     transform: translateY(-15px);
+  }
+}
 
+.arrow {
+  position: relative;
+  margin: 13rem auto 1rem; 
+  transform: rotateZ(90deg);
+  max-width: 3rem;
+  filter: invert(80%);
+  animation: bounce 2s infinite;
+}
 
 /* ------------------------------------ */
 /* ----------------------
@@ -510,6 +531,29 @@ other pages
   padding: 1rem!important;
 } */
 
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {
+     transform: translateY(0);
+  }
+	40% {
+     transform: translateY(-30px);
+  }
+	60% {
+     transform: translateY(-15px);
+  }
+}
+
+.arrow {
+  position: relative;
+  margin: 13rem auto 1rem; 
+  max-width: 3rem;
+  filter: invert(80%);
+  animation: bounce 2s infinite;
+  transition: 2s ease-in-out 1s;
+}
+
+
+
 
 
 /* header banner end */
@@ -712,6 +756,28 @@ other pages
 .inpagetext div div {
   padding: 1rem!important;
 } */
+
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {
+     transform: translateY(0);
+  }
+	40% {
+     transform: translateY(-30px);
+  }
+	60% {
+     transform: translateY(-15px);
+  }
+}
+
+.arrow {
+  position: relative;
+  margin: 13rem auto 1rem; 
+  max-width: 3rem;
+  filter: invert(80%);
+  animation: bounce 2s infinite;
+  transition: 2s ease-in-out 1s;
+}
+
 
 
 /* -------------- */
