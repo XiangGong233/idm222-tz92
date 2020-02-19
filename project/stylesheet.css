@@ -802,11 +802,12 @@ main {
   padding: 1rem 1rem 2.5rem;
   border-radius: 0;
   /* justify-self: end; */
-  align-self: center;
+  align-self: flex-start;
   transition-duration: 0.5s;
   max-width: 60%;
   /* margin-right: 3rem; */
   margin-left: 3rem;
+  margin-top: 3rem;
 }
 
 #topmargin:hover {
@@ -821,11 +822,13 @@ h2 {
 .text {
   grid-area: 2 / 4 / 3 / 7 ;
   position: relative;
-  padding-top: 0.5rem;
+  padding: 2rem;
   margin-bottom: 5rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-right: 50px;
-  background-color: powderblue;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border:dashed 5px rgb(119, 117, 110);
+
 }
 
 
@@ -1009,7 +1012,8 @@ sao dong xi
 .text {
 max-width: 60%;
 margin-left: 5rem;
-margin-top: 2rem;
+padding: 4rem 1rem 2.5rem;
+
 }
 
 }
