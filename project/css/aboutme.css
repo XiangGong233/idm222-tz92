@@ -159,8 +159,8 @@ footer {
         width: 100vw;
         display: grid;
         grid-template-columns: 50px 1fr 1fr 1fr 50px;
-        grid-template-rows: 50px 90px 1fr 0.5fr 0.5fr 1fr 0.8fr 0.8fr 100px;
-        grid-gap: 10px;
+        grid-template-rows: 50px 50px 1fr 0.5fr 0.5fr 1fr 0.8fr 0.8fr 100px;
+        grid-gap: 40px;
       }  
 
       .header_h2:first-child {
@@ -169,11 +169,11 @@ footer {
       }
 
 .heart {
-    max-width: 60%!important;
+    max-width: 70%!important;
     border: 3px solid rgb(75, 75, 75, 0.6)  ;
     border-radius: 0!important;
     padding: 1rem;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 
 }
 
@@ -181,7 +181,23 @@ footer {
     transform: rotate(5deg);
   }
 
+.card { 
+    color: ;
+    font-size: 1rem;
+    padding: 2rem;
+}
 
+.card {
+    background-color: rgb(254, 255, 210, 0.6);
+    transition: all 5s ease-in-out;
+    border: 15px solid ;
+    border-image: repeating-linear-gradient( 45deg, rgb(211, 231, 253, 0.8), rgb(211, 231, 253, 0.8) 5%, transparent 5%, transparent 10%) 10;
+  }
+  
+  .card:hover {
+    border-image: repeating-linear-gradient( 45deg, transparent , transparent 5%, rgb(211, 231, 253, 0.8) 5%, rgb(211, 231, 253, 0.8) 10%) 10;
+  }
+  
 
 
 
