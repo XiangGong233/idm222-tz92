@@ -810,7 +810,7 @@ main {
   border-radius: 0;
   /* justify-self: end; */
   align-self: center;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
   max-width: 60%;
   /* margin-right: 3rem; */
   margin-left: 3rem;
