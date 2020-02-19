@@ -921,7 +921,7 @@ h2 {
   grid-area: 4 / 2 / 6 / 7 ;
   grid-gap: 20px;
   /* margin-right: 5rem; */
-  margin: 5rem !important;
+  margin: 2rem auto !important;
   /* width: 100%; */
   max-width: 100%;
   max-height: 100%;
@@ -943,7 +943,8 @@ h2 {
 }
 
 .content {
-  display: none;
+  display: block;
+  
 }
 
 #c4, #c5, #c6 {
@@ -1027,15 +1028,17 @@ h2 {
 .image-wrapper {
   margin: 0 auto;
   overflow: hidden;
-  font-size: 0;
 }
 img {
   transition: transform 0.5s ease-in-out;
 }
 
+.content {
+  padding-top: 5rem;
+}
+
 .image-wrapper:hover img {
   transform: scale(1.1);
-  
 }
 
 #notop {
@@ -1051,7 +1054,28 @@ img {
 sao dong xi 
 ----------------------- */
 
+.image-wrapper {
+	perspective: 500px; 
+}
 
+.image-wrapper .content {
+	width: 70%;
+	height: 80%;	
+	position: absolute;
+	content: "";
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotateY(90deg);
+	transform-origin: 50%;
+	background: rgba(255,255,255,0.9);	
+	opacity: 0;
+	transition: all 0.4s ease-in;
+	
+}
+.image-wrapper:hover .content {
+	transform: translate(-50%, -50%) rotateY(0deg);
+	opacity: 0.95;
+}
 
 
 
@@ -1081,6 +1105,49 @@ margin-left: 5rem;
 padding: 4rem 1rem 2.5rem;
 
 }
+
+.box-box  {
+  display: grid;
+  grid-template-columns:  1fr  1fr  1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  grid-area: 4 / 2 / 6 / 7 ;
+  grid-gap: 20px;
+  /* margin-right: 5rem; */
+  margin: 5rem  !important;
+  /* width: 100%; */
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.content {
+  padding-top: 8rem;
+}
+
+.image-wrapper {
+	perspective: 500px; 
+}
+
+.image-wrapper .content {
+	width: 70%;
+	height: 80%;	
+	position: absolute;
+	content: "";
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotateY(90deg);
+	transform-origin: 50%;
+	background: rgba(255,255,255,0.9);	
+	opacity: 0;
+	transition: all 0.4s ease-in;
+	
+}
+.image-wrapper:hover .content {
+	transform: translate(-50%, -50%) rotateY(0deg);
+	opacity: 0.95;
+}
+
 
 }
 
