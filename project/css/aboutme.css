@@ -174,7 +174,7 @@ footer {
     border-radius: 0!important;
     padding: 1rem;
     transition-duration: 0.5s;
-
+    transform: rotate(-5deg);
 }
 
 .heart:hover {
@@ -182,7 +182,6 @@ footer {
   }
 
 .card { 
-    color: ;
     font-size: 1rem;
     padding: 2rem;
 }
@@ -198,6 +197,62 @@ footer {
     border-image: repeating-linear-gradient( 45deg, transparent , transparent 5%, rgb(211, 231, 253, 0.8) 5%, rgb(211, 231, 253, 0.8) 10%) 10;
   }
   
+.box img {
+    box-shadow: none!important;
+    border-radius: 0!important;
+    border: 3px solid rgb(75, 75, 75, 0.6);
+    padding: 1.2rem 1.2rem 2.8rem!important;
+}
+
+.rotateleft:hover {
+    transform: rotateZ(-10deg);
+}
+
+.rotateright:hover {
+    transform: rotateZ(10deg);
+}
+
+#imageabout01 {
+    grid-area: 4/4/5/5;
+    margin-top: 2rem;
+}
+
+#imageabout02 {
+    grid-area: 5/2/6/3;
+    margin-top: 4rem;
+}
+
+#imageabout03{
+    grid-area: 6/4/7/5;
+    position: relative;
+    margin-top: 2rem;
+}
+
+#imageabout04{
+    grid-area: 6/4/7/5;
+    position: relative;
+    margin-top: 22rem;
+}
+
+#imageabout01, #imageabout03{
+    transform: rotateZ(5deg);
+}
+
+#imageabout02, #imageabout04{
+    transform: rotateZ(-5deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
