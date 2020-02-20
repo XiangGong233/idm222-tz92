@@ -109,11 +109,15 @@ justify-content: center;
 
 @media (min-width: 768px) {
 
-  main {
+
+  .mainplanner {
+    height: 100vh;
+    width: 100vw;
     display: grid;
-    grid-template-columns: 50px 1fr 1fr 1fr 1fr 1fr  50px;
-    grid-template-rows: 100px 1fr 100px 1fr 1fr  170px 50px;
-  }
+    grid-template-columns: 50px 1fr 1fr 1fr 50px;
+    grid-template-rows: 25px 1fr 1fr  50px 1fr;
+    grid-gap: 10px;
+  }  
 
   video {
     height: auto;
@@ -126,6 +130,20 @@ justify-content: center;
   #plannerh2 {
     grid-area: 2/2/3/5;
   }
+
+.plannerbox {
+  margin-top: 1rem;
+  grid-area: 3/2/4/5;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+  font-size: 90%;
+}
+
+footer {
+  grid-area: 5/1/6/6;
+}
 
 }
 
