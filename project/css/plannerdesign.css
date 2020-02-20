@@ -115,7 +115,7 @@ justify-content: center;
     width: 100vw;
     display: grid;
     grid-template-columns: 50px 1fr 1fr 1fr 50px;
-    grid-template-rows: 25px 1fr 1fr  50px 1fr;
+    grid-template-rows: 25px 1fr 1fr 50px 1fr;
     grid-gap: 10px;
   }  
 
@@ -144,6 +144,21 @@ justify-content: center;
 .plannerfooter {
   grid-area: 5/1/6/6;
 }
+
+.insideplanner {
+  display: grid;
+  grid-template-columns: 50px 1fr 1fr 1fr 50px;
+  grid-template-rows: 25px 1fr 1fr 50px 1fr;
+  grid-gap: 10px;}
+
+
+.plannerh2 {
+  grid-area: 2/2/3/3;
+}
+
+
+
+
 
 }
 
@@ -257,7 +272,6 @@ justify-content: center;
   padding: 0rem 0rem 0rem;
   margin: 0;
 }
-
 
 }
 

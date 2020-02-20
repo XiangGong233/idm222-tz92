@@ -52,7 +52,7 @@ main {
         grid-gap: 10px;
       }    
 
-.header_h2:first-child {
+.intro {
     grid-area: 2/2/3/4;
     padding: 0.5rem;
 }
