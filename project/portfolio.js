@@ -10,24 +10,27 @@ console.log('javascript start')
 const dark = document.getElementById('dark');
 const light = document.getElementById('light');
 const main = document.getElementById('main');
-const p = document.querySelectorAll('#paragraph');
-
-
+const text = document.getElementById('text');
+const pdtitle = document.getElementById('pdtitle1')
+const topbox = document.getElementById('top')
 
 
 dark.onclick = function themeDark() {
     dark.classList.add('hidden');
 	light.classList.remove('hidden');
 	main.classList.add('darkcolor');
-	p.classList.add('lightcolor');
-
+	text.classList.add('lightcolor');
+	pdtitle.classList.add('lightcolor');
+	topbox.classList.add('darkcolor')
 }
 
 light.onclick = function themeLight() {
     light.classList.add('hidden');
 	dark.classList.remove('hidden');
 	main.classList.remove('darkcolor');
-	p.classList.remove('lightcolor');
+	text.classList.remove('lightcolor');
+	pdtitle.classList.remove('lightcolor')
+	topbox.classList.remove('darkcolor')
 
 
 }

@@ -74,14 +74,6 @@ p {
   text-align: center;
 }
 
-.darkcolor {
-  background-color: rgb(49, 48, 47);
-}
-
-.lightcolor {
-  color: antiquewhite;
-}
-
 
 
 /* header start */
@@ -247,6 +239,43 @@ a:hover {
 
 .theme-container button:hover{
   border: 2px dotted cornsilk;
+}
+
+.darkcolor {
+  background: linear-gradient( rgb(8, 0, 56, 0.7), rgb(8, 0, 56, 0.7)), url(images/journal/xingqiudianyingpiao.jpg) no-repeat;
+  background-attachment: fixed;
+}
+
+.darkcolor .content {
+  background-image:linear-gradient(to top right,  rgb(166, 193, 238, 0.5) 21%, rgb(251, 194, 235, 0.5) 100%) !important;
+  background-size: 100vw;
+  background-position: center;
+}
+
+#top {
+  background: transparent !important;
+}
+
+/* .lightcolor {
+  color: antiquewhite;
+} */
+
+.lightcolor p {
+  color: rgb(211, 234, 255);
+
+}
+
+.lightcolor h2, .lightcolor h1{
+  color: #6ddaf2;
+  text-shadow: 2px 2px 3px rgb(161, 161, 161, 0.6) !important;
+}
+
+.lightcolor a {
+  color: rgb(165, 185, 204)!important;
+}
+
+#topmargin {
+  background: rgb(255, 252, 248);
 }
 
 /* responsive */
@@ -932,6 +961,12 @@ h2 {
 
 
 /* img set */
+
+#pdtitle1 {
+  grid-area: 3/3/4/6;
+  justify-self: center;
+  align-self: flex-end;
+}
 
 #pdtitle {
   display: block;
