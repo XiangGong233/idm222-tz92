@@ -12,6 +12,10 @@
     text-align: left;
 }
 
+[hidden] {
+    display: none;
+}
+
 #lesscard {
     margin-top: 0rem;
 }
@@ -131,16 +135,6 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 }
 
 @media (min-width: 960px) {
@@ -184,7 +178,7 @@ footer {
 
 .card {
     background-color: rgb(254, 255, 210, 0.6);
-    transition: all 1s ease-in-out;
+    /* transition: all 1s ease-in-out; */
     border: 15px solid ;
     border-image: repeating-linear-gradient( 45deg, rgb(211, 231, 253, 0.8), rgb(211, 231, 253, 0.8) 5%, transparent 5%, transparent 10%) 10;
   }
@@ -206,6 +200,10 @@ footer {
 
 .rotateright:hover {
     transform: rotateZ(13deg);
+}
+
+.aboutcontent {
+    display: none !important;
 }
 
 #imageabout01 {
@@ -237,19 +235,6 @@ footer {
 #imageabout02, #imageabout04{
     transform: rotateZ(-5deg);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -296,13 +281,15 @@ footer {
 
 .card {
     background-color: rgb(254, 255, 210, 0.6);
-    transition: all 1s ease-in-out;
+    /* transition: all 1s ease-in-out; */
     border: 18px solid ;
     border-image: repeating-linear-gradient( 45deg, rgb(211, 231, 253, 0.8), rgb(211, 231, 253, 0.8) 5%, transparent 5%, transparent 10%) 10;
+
   }
   
   .card:hover {
     border-image: repeating-linear-gradient( 45deg, transparent , transparent 5%, rgb(211, 231, 253, 0.8) 5%, rgb(211, 231, 253, 0.8) 10%) 10;
+    
   }
   
 .aboutbox img {

@@ -6,7 +6,7 @@
 
 @import 'css/aboutme.css';
 @import 'css/plannerdesign.css';
-@import 'responsive.css';
+/* @import 'responsive.css'; */
 
 * {
   box-sizing: border-box;
@@ -549,7 +549,7 @@ other pages
   max-width: 3rem;
   filter: invert(80%);
   animation: bounce 2s infinite;
-  transition: 2s ease-in-out 1s;
+  /* transition: 2s ease-in-out; */
 }
 
 
@@ -693,6 +693,7 @@ text-decoration: none;
     background-position: center;
     background-color: #cccccc;
   }
+
   
   .benner-info p {
     font-size: 2rem;
@@ -775,7 +776,7 @@ other pages
   max-width: 3rem;
   filter: invert(80%);
   animation: bounce 2s infinite;
-  transition: 2s ease-in-out 1s;
+  /* transition: 2s ease-in-out; */
 }
 
 
@@ -1085,7 +1086,6 @@ sao dong xi
 
 
 }
-
   
 @media (min-width: 1300px) {
 
