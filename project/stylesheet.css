@@ -37,9 +37,6 @@ html {
 
 
 
-
-
-
 h1 { 
   font-size: 1.5rem;  /* 64px */
   text-decoration: none;
@@ -77,8 +74,13 @@ p {
   text-align: center;
 }
 
+.darkcolor {
+  background-color: rgb(49, 48, 47);
+}
 
-
+.lightcolor {
+  color: antiquewhite;
+}
 
 
 
@@ -216,7 +218,36 @@ a:hover {
   
 }
 
+.hidden {
+  display: none;
+}
 
+.theme-container {
+  position: fixed;
+  top: 0.5rem;
+  right: 0.5rem;
+  appearance: none;
+  z-index: 99;
+}
+
+.theme-container button{
+	padding:8px 20px;
+	outline:0;
+	border: 2px solid transparent;
+	color:rgb(231, 231, 231);
+	font-size: 1em;
+	font-weight:600;
+	background:transparent;
+	border-radius:5px;
+	margin:0 auto;
+	cursor:pointer;
+  font-family: 'montserrat', Arial, Helvetica, sans-serif;
+
+}
+
+.theme-container button:hover{
+  border: 2px dotted cornsilk;
+}
 
 /* responsive */
 
