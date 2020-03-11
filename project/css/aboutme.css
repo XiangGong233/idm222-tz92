@@ -37,6 +37,23 @@
     display: none!important;
 }
 
+.darkcolor .card p {
+    color: #e3f9ff;
+}
+
+.darkcolor .card {
+    background-color: rgba(3, 0, 19, 0.4);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    border-color: rgb(106, 90, 205, 0.8);
+    border-image: repeating-linear-gradient( 45deg, rgb(106, 90, 205, 0.8), rgb(106, 90, 205, 0.8) 5%, transparent 5%, transparent 10%) 10;
+
+}
+
+.darkcolor .card:hover {
+    border-image: repeating-linear-gradient( 45deg, transparent , transparent 5%, rgb(106, 90, 205, 0.8) 5%, rgb(106, 90, 205, 0.8) 10%) 10;
+  }
+
+
 @media (min-width: 768px) {
 .all {
     background-color: transparent;
@@ -140,7 +157,7 @@ footer {
 @media (min-width: 960px) {
 
     .allabout {
-        background-color: rgb(254, 255, 245)!important;
+        background-color: transparent!important;
         height: 100%;
     }
 
@@ -151,6 +168,7 @@ footer {
         grid-template-columns: 50px 1fr 1fr 1fr 50px;
         grid-template-rows: 50px 50px 1fr 0.5fr 0.5fr 1fr 0.8fr 0.8fr 100px;
         grid-gap: 40px;
+        background-color: transparent;
       }  
 
       .header_h2:first-child {
@@ -178,7 +196,6 @@ footer {
 
 .card {
     background-color: rgb(254, 255, 210, 0.6);
-    /* transition: all 1s ease-in-out; */
     border: 15px solid ;
     border-image: repeating-linear-gradient( 45deg, rgb(211, 231, 253, 0.8), rgb(211, 231, 253, 0.8) 5%, transparent 5%, transparent 10%) 10;
   }
@@ -243,7 +260,7 @@ footer {
 @media (min-width: 1200px) {
 
     .allabout {
-        background-color: rgb(254, 255, 245)!important;
+        background-color: transparent!important;
         height: 100%;
     }
 
@@ -281,7 +298,6 @@ footer {
 
 .card {
     background-color: rgb(254, 255, 210, 0.6);
-    /* transition: all 1s ease-in-out; */
     border: 18px solid ;
     border-image: repeating-linear-gradient( 45deg, rgb(211, 231, 253, 0.8), rgb(211, 231, 253, 0.8) 5%, transparent 5%, transparent 10%) 10;
 

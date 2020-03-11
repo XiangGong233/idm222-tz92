@@ -57,9 +57,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-body {
+/* body {
   background-color: rgba(255, 255, 229, 0.4);
-}
+} */
 
 p {
   color:rgb(48, 47, 47, 0.80);
@@ -67,7 +67,8 @@ p {
 
 /* need fix */
 .all {
-  background-color: rgb(254, 255, 238);
+  /* background-color: rgb(254, 255, 238); */
+  background-color: transparent;
   border-color: black;
   box-shadow: 5px 5px 5px lightgray;
   margin: 0.5rem;
@@ -257,7 +258,7 @@ a:hover {
   background-position: center;
 }
 
-.darkcolor #topmargin {
+.darkcolor #topmargin, .darkcolor #bottommargin{
   background-color: rgba(3, 0, 19, 0.4);
   box-shadow: -5px -5px 10px rgb(36, 36, 36);
 }
@@ -284,10 +285,16 @@ a:hover {
 
 }
 
-.lightcolor h2, .lightcolor h1, .darkcolor #notop p, .darkcolorfooter p{
+.lightcolor h2, .lightcolor h1, .darkcolor #notop p, .darkcolorfooter p, .darkcolor h2 {
   color: #b9f2ff;
   text-shadow: 2px 2px 3px rgb(161, 161, 161, 0.6) !important;
 }
+
+/* {
+  color: rgb(127, 104, 255);
+  text-shadow: 2px 2px 3px rgb(161, 161, 161, 0.6) !important;
+
+} */
 
 .lightcolor a {
   color: rgb(165, 185, 204)!important;
@@ -866,7 +873,7 @@ other pages
 
 .all {
   margin:0;
-  background-color: whitesmoke;
+  background-color: transparent;
 }
 
 
@@ -1065,14 +1072,7 @@ h2 {
   grid-area: 2/3/3/4;
 }
 
-/* .box img {
-	-webkit-transition: all 0.1s ease-in-out;
-  	-moz-transition: all 0.1s ease-in-out;
-  	-o-transition: all 0.1s ease-in-out;
-    transition: all 0.1s ease-in-out;
-    z-index: 2;
-
-}
+/* 
 
 .box img:hover {
   z-index: 5;
@@ -1085,18 +1085,7 @@ h2 {
 
 } */
 
-/* .container div {
-  overflow: hidden;
-
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  -o-transition: all .5s;
-  transition: all .5s;
-}
+/* 
 
 .container a {
   display: none;
