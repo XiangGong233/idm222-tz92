@@ -13,7 +13,7 @@ const main = document.getElementById('main');
 const text = document.getElementById('text');
 const pdtitle = document.getElementById('pdtitle1')
 const topbox = document.getElementById('top')
-
+const footer = document.getElementById('footer')
 
 dark.onclick = function themeDark() {
     dark.classList.add('hidden');
@@ -21,7 +21,8 @@ dark.onclick = function themeDark() {
 	main.classList.add('darkcolor');
 	text.classList.add('lightcolor');
 	pdtitle.classList.add('lightcolor');
-	topbox.classList.add('darkcolor')
+	topbox.classList.add('darkcolor');
+	footer.classList.add('darkcolorfooter')
 }
 
 light.onclick = function themeLight() {
@@ -31,6 +32,7 @@ light.onclick = function themeLight() {
 	text.classList.remove('lightcolor');
 	pdtitle.classList.remove('lightcolor')
 	topbox.classList.remove('darkcolor')
+	footer.classList.remove('darkcolorfooter')
 
 
 }
