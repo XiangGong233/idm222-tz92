@@ -171,8 +171,8 @@ li {
 }
 
 #notop {
-  margin-bottom: 2rem;
-  margin-top: 0rem;
+  padding-bottom: 2rem !important;
+  margin: 0rem !important;
   padding: 0rem;
 }
 
@@ -189,14 +189,18 @@ footer {
 }
 
 
+.navigation li a{
+  color: #2b2b2b;
+}
+
 
 a:link {
   color: rgb(80, 80, 80);
 }
 
-a:visited {
+/* a:visited {
   color: rgb(85, 85, 85);
-}
+} */
 
 a:hover {
   color: rgb(46, 46, 46);
@@ -246,59 +250,7 @@ a:hover {
   border: 2px dotted cornsilk;
 }
 
-.darkcolor {
-  background: linear-gradient( rgba(3, 0, 19, 0.8), rgba(3, 1, 17, 0.8)), url(images/washitape03.jpg) no-repeat;
-  background-attachment: fixed;
-  background-size: 100vw;
-}
 
-.darkcolor .content {
-  background-image:linear-gradient(to top right,  rgb(166, 193, 238, 0.5) 21%, rgb(251, 194, 235, 0.5) 100%) !important;
-  background-size: 100vw 100vh;
-  background-position: center;
-}
-
-.darkcolor #topmargin, .darkcolor #bottommargin{
-  background-color: rgba(3, 0, 19, 0.4);
-  box-shadow: -5px -5px 10px rgb(36, 36, 36);
-}
-
-.darkcolor #text {
-  border: dashed 5px transparent;
-}
-
-.darkcolor #notop {
-  background-color: rgba(3, 0, 19, 0.4);
-  border-color: rgb(106, 90, 205, 0.8);
-}
-
-.darkcolorfooter {
-  background-color: rgb(106, 90, 205);
-}
-
-/* .lightcolor {
-  color: antiquewhite;
-} */
-
-.lightcolor p {
-  color: rgb(217, 237, 255);
-
-}
-
-.lightcolor h2, .lightcolor h1, .darkcolor #notop p, .darkcolorfooter p, .darkcolor h2 {
-  color: #b9f2ff;
-  text-shadow: 2px 2px 3px rgb(161, 161, 161, 0.6) !important;
-}
-
-/* {
-  color: rgb(127, 104, 255);
-  text-shadow: 2px 2px 3px rgb(161, 161, 161, 0.6) !important;
-
-} */
-
-.lightcolor a {
-  color: rgb(165, 185, 204)!important;
-}
 
 #topmargin {
   background: rgb(255, 252, 248);
@@ -416,6 +368,97 @@ header banner end
   display: none;
 }
 
+
+.darkcolor {
+  background: linear-gradient( rgb(157, 114, 255, 0.8), rgba(3, 1, 17, 0.8));
+  background-attachment: fixed;
+  background-size: 100vw;
+}
+
+/* .darkcolor .content {
+  background-image:linear-gradient(to top right,  rgb(166, 193, 238, 0.5) 21%, rgb(251, 194, 235, 0.5) 100%) !important;
+  background-size: 100vw 100vh;
+  background-position: center;
+} */
+
+.darkcolor .tiange01 {
+  background-color: transparent;
+}
+
+.darkcolor #home {
+  background-color: #ffb3fd;
+  padding: 0.3rem 0;
+}
+
+.darkcolor #aboutme {
+  background-color: rgb(255, 179, 253, 0.8);
+  padding: 0.3rem 0;
+
+}
+
+.darkcolor #plannerdesign {
+  background-color: rgb(255, 179, 253, 0.5);
+  padding: 0.3rem 0;
+
+}
+
+.darkcolor .tiange01 a, .darkcolor  h1{
+  color: #b9f2ff;
+}
+
+.darkcolor  h1 {
+  text-shadow: 1px 1px 10px  #b9f2ff;
+
+}
+
+.darkcolor .content {
+  background-color: rgb(185, 242, 255, 0.4);
+  width: 97%;
+}
+.darkcolor .content h2{ 
+  color: #2b2b2b;
+}
+
+.darkcolor .box img {
+  box-shadow: 4px -4px 10px #b9f2ff;
+}
+
+/* .darkcolor #text {
+  border: dashed 5px transparent;
+} */
+
+.darkcolor #notop {
+  /* background-color: rgba(3, 0, 19, 0.4); */
+  border-color: rgb(106, 90, 205, 0.8);
+}
+
+.darkcolorfooter {
+  background-color: rgb(106, 90, 205);
+}
+
+/* .lightcolor {
+  color: antiquewhite;
+} */
+
+.lightcolor p {
+  color: rgb(217, 237, 255);
+
+}
+
+.lightcolor h2, .lightcolor h1, .darkcolor #notop p, .darkcolorfooter p, .darkcolor h2 {
+  color: #b9f2ff;
+  text-shadow: 0px 0px 5px rgb(232, 235, 255) !important;
+}
+
+/* {
+  color: rgb(127, 104, 255);
+  text-shadow: 2px 2px 3px rgb(161, 161, 161, 0.6) !important;
+
+} */
+
+.lightcolor a {
+  color: rgb(165, 185, 204)!important;
+}
 
 }
 
@@ -538,6 +581,19 @@ other pages
 }
 
 @media (min-width: 768px) {
+  .darkcolor #notop {
+    background-color: rgba(3, 0, 19, 0.4);
+    border-color: rgb(106, 90, 205, 0.8);
+  }
+
+  .darkcolor .tiange01 {
+    /* background-color: rgba(172, 90, 205, 0.8); */
+    background: linear-gradient(rgb(106, 90, 205, 0.5), rgba(172, 90, 205, 0.5));
+  }
+
+  .darkcolor .tiange01 a, .darkcolor  h1{
+    color: rgb(106, 90, 205);
+  }
 
   /* header banner start */
   .header-banner {
@@ -769,6 +825,7 @@ text-decoration: none;
 }
 
 @media (min-width: 960px) {
+
 
 /* header banner start */
   .header-banner {
@@ -1124,7 +1181,7 @@ img {
   grid-area: 6 / 2 / 7 / 7;
   padding: 2.3rem !important;
   margin-top: 1rem  !important;
-  margin: auto;
+  margin: auto !important;
 }
 
 /* vh */
@@ -1156,7 +1213,80 @@ sao dong xi
 	opacity: 0.95;
 }
 
+.navigation li a {
+  color: rgb(255, 251, 247);
+}
 
+.darkcolor #home {
+  background-color: transparent;
+  padding: 0.1rem 0rem 0rem;
+}
+
+.darkcolor #aboutme {
+  background-color: transparent;
+  padding: 0.1rem 0rem 0rem;
+
+}
+
+.darkcolor #plannerdesign {
+  background-color: transparent;
+  padding: 0.1rem 0rem 0rem;
+
+}
+
+.darkcolor {
+  background: linear-gradient( rgba(3, 0, 19, 0.8), rgba(3, 1, 17, 0.8)), url(images/washitape.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: 100vw;
+}
+
+.darkcolor .content {
+  background-image:linear-gradient(to top right,  rgb(166, 193, 238, 0.5) 21%, rgb(251, 194, 235, 0.5) 100%) !important;
+  background-size: 100vw 100vh;
+  background-position: center;
+}
+
+.darkcolor #topmargin, .darkcolor #bottommargin{
+  background-color: rgba(3, 0, 19, 0.4);
+  box-shadow: -5px -5px 10px rgb(36, 36, 36);
+}
+
+.darkcolor #text {
+  border: dashed 5px transparent;
+}
+
+.darkcolor #notop {
+  background-color: rgba(3, 0, 19, 0.4);
+  border-color: rgb(106, 90, 205, 0.8);
+}
+
+.darkcolorfooter {
+  background-color: rgb(106, 90, 205);
+}
+
+/* .lightcolor {
+  color: antiquewhite;
+} */
+
+.lightcolor p {
+  color: rgb(217, 237, 255);
+
+}
+
+.lightcolor h2, .lightcolor h1, .darkcolor #notop p, .darkcolorfooter p, .darkcolor h2 {
+  color: #b9f2ff;
+  text-shadow: 2px 2px 3px rgb(161, 161, 161, 0.6) !important;
+}
+
+/* {
+  color: rgb(127, 104, 255);
+  text-shadow: 2px 2px 3px rgb(161, 161, 161, 0.6) !important;
+
+} */
+
+.lightcolor a {
+  color: rgb(165, 185, 204)!important;
+}
 
 
 }

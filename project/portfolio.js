@@ -15,31 +15,60 @@ const pdtitle = document.getElementById('pdtitle1')
 const topbox = document.getElementById('top')
 const footer = document.getElementById('footer')
 
-const lesscard = document.getAnimations
+
 
 dark.onclick = function themeDark() {
 	console.log('main');
     dark.classList.add('hidden');
 	light.classList.remove('hidden');
 	main.classList.add('darkcolor');
+	header002.classList.add('darkcolor');
+
 	text.classList.add('lightcolor');
 	pdtitle.classList.add('lightcolor');
 	topbox.classList.add('darkcolor');
 	footer.classList.add('darkcolorfooter');
+	
+
+
 }
 
 light.onclick = function themeLight() {
     light.classList.add('hidden');
 	dark.classList.remove('hidden');
 	main.classList.remove('darkcolor');
+	header002.classList.remove('darkcolor');
+
 	text.classList.remove('lightcolor');
 	pdtitle.classList.remove('lightcolor')
 	topbox.classList.remove('darkcolor')
 	footer.classList.remove('darkcolorfooter')
+
+
 }
 
 
+const header002 = document.getElementById('header002')
 
+
+// dark.onclick = function aboutDark() {
+// 	console.log('aboutme');
+// 	header002.classList.add('darkcolor');
+// 	dark.classList.add('hidden');
+// 	light.classList.remove('hidden');
+// 	main.classList.add('darkcolor');
+// 	footer.classList.add('darkcolorfooter');
+
+// }
+
+// light.onclick = function aboutLight() {
+// 	header002.classList.remove('darkcolor');
+//     light.classList.add('hidden');
+// 	dark.classList.remove('hidden');
+// 	main.classList.remove('darkcolor');
+// 	footer.classList.remove('darkcolorfooter')
+
+// }
 
 
 

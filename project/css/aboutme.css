@@ -25,7 +25,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     font-size: 1rem;
-    margin: 0rem 1.5rem 2rem;
+    margin: 1.5rem 1.5rem 2rem;
     max-width: 100%;
     min-width: 30%;
     padding: 1rem;
@@ -52,6 +52,21 @@
 .darkcolor .card:hover {
     border-image: repeating-linear-gradient( 45deg, transparent , transparent 5%, rgb(106, 90, 205, 0.8) 5%, rgb(106, 90, 205, 0.8) 10%) 10;
   }
+
+.darkcolor #footer {
+    background-color: rgb(106, 90, 205);
+
+}
+
+.darkcolor #footer p{
+    color: rgb(217, 237, 255);
+
+}
+
+ .darkcolor .resume a {
+    color: rgb(217, 237, 255);
+    text-shadow: 0px 0px 5px rgb(217, 237, 255);
+ }
 
 
 @media (min-width: 768px) {
