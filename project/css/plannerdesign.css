@@ -91,6 +91,10 @@ justify-content: center;
   padding: 0rem 0rem 0rem;
 }
 
+.darkcolor .box02 img {
+  box-shadow: 0px 0px 15px #b9f2ff, 0px 0px 15px #a2eeff;
+}
+
 .box02::after {
   clear: both;
   content: "";
