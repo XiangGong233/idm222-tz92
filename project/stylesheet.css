@@ -581,6 +581,30 @@ other pages
 }
 
 @media (min-width: 768px) {
+
+  .darkcolor {
+    background: linear-gradient( rgba(3, 0, 19, 0.8), rgba(3, 1, 17, 0.8)), url(images/washitape.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw;
+  }
+
+  .darkcolor #home {
+    background-color: rgb(255, 179, 253, 0.6) ;
+    padding: 0.3rem 0;
+  }
+  
+  .darkcolor #aboutme {
+    background-color: rgb(255, 179, 253, 0.8);
+    padding: 0.3rem 0;
+  
+  }
+  
+  .darkcolor #plannerdesign {
+    background-color: rgb(255, 179, 253, 0.9);
+    padding: 0.3rem 0;
+  
+  }
+
   .darkcolor #notop {
     background-color: rgba(3, 0, 19, 0.4);
     border-color: rgb(106, 90, 205, 0.8);
@@ -731,6 +755,8 @@ main {
   grid-template-rows: 30px 1fr 0.5fr 0.5fr 1fr 0.8fr 30px;
   /* grid-gap: 10px; */
 }
+
+
 
 /* biaoqingbao image class*/
 /* biaoqingbao image class*/

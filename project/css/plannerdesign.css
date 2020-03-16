@@ -115,11 +115,10 @@ justify-content: center;
 
 
   .mainplanner {
-    height: 100vh;
     width: 100vw;
     display: grid;
     grid-template-columns: 50px 1fr 1fr 1fr 50px;
-    grid-template-rows: 25px 1fr 1fr 50px 1fr;
+    grid-template-rows: 25px 1fr 1fr 50px 0.35fr;
     grid-gap: 10px;
   }  
 
@@ -152,10 +151,9 @@ justify-content: center;
 .insideplanner {
   display: grid;
   grid-template-columns: 50px 1fr 1fr 1fr 50px;
-  grid-template-rows: 25px 1fr 1fr 1fr;
+  grid-template-rows: 25px 50px 1fr 25px 170px;
   grid-gap: 10px;
   width: 100vw;
-  height: 100vh;
   justify-content: center;
 }
 
@@ -184,7 +182,7 @@ justify-content: center;
 }
 
 .inpfooter {
-grid-area: 4/1/5/6;
+grid-area: 5/1/6/6;
 }
 
 
