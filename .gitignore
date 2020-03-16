@@ -66,3 +66,25 @@ dkms.conf
 *.mp4
 *.ogg
 *.ogv
+
+
+# image
+*.jpg
+*.jpeg
+
+# font
+*.woff
+*.woff2
+
+*.jpeg
+111.jpeg
+*.png
+*.jfif
+
+# video
+*.mp4
+*.ogg
+*.ogv
+
+# sound
+*.mp3
