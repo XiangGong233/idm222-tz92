@@ -1268,13 +1268,14 @@ sao dong xi
 
 .darkcolor .content {
   background-image:linear-gradient(to top right,  rgb(166, 193, 238, 0.5) 21%, rgb(251, 194, 235, 0.5) 100%) !important;
-  background-size: 100vw 100vh;
+  background-size: 100vw;
   background-position: center;
 }
 
-.darkcolor #topmargin, .darkcolor #bottommargin{
-  background-color: rgba(3, 0, 19, 0.4);
-  box-shadow: -5px -5px 10px rgb(36, 36, 36);
+.darkcolor #topmargin{
+  background-color: rgb(106, 90, 205, 0.1);
+  box-shadow: 0px 0px 5px rgb(162, 171, 255);
+
 }
 
 .darkcolor #text {
@@ -1301,7 +1302,18 @@ sao dong xi
 
 .lightcolor h2, .lightcolor h1, .darkcolor #notop p, .darkcolorfooter p, .darkcolor h2 {
   color: #b9f2ff;
-  text-shadow: 2px 2px 3px rgb(161, 161, 161, 0.6) !important;
+  text-shadow: 0px 0px 10px #b9f2ff !important;
+}
+
+.darkcolor .content h2 {
+  color: rgb(192, 131, 192);
+  text-shadow: 2px 2px  #e7a8a8 !important;
+
+}
+
+.darkcolor .content p {
+  color: rgb(112, 77, 112);
+
 }
 
 /* {

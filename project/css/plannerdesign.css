@@ -91,8 +91,12 @@ justify-content: center;
   padding: 0rem 0rem 0rem;
 }
 
-.darkcolor .box02 img {
+.darkcolor .box02 img{
   box-shadow: 0px 0px 15px #b9f2ff, 0px 0px 15px #a2eeff;
+}
+
+.darkcolor .box .container a img, .darkcolor #bottommargin {
+  background-color: rgb(106, 90, 205, 0.2);
 }
 
 .box02::after {
@@ -193,6 +197,7 @@ grid-area: 5/1/6/6;
 
 @media (min-width: 960px) {
 
+
 .plannerbody {
   background-color: whitesmoke!important;
 }
@@ -203,11 +208,10 @@ grid-area: 5/1/6/6;
 }
 
   .mainplanner {
-    height: 100vh;
     width: 100vw;
     display: grid;
     grid-template-columns: 50px 1fr 1fr 1fr 50px;
-    grid-template-rows: 25px 1fr 1fr  50px 1fr;
+    grid-template-rows: 25px 0.8fr 1fr  50px 170px;
     grid-gap: 10px;
   }  
 
@@ -267,26 +271,29 @@ grid-area: 5/1/6/6;
   width: 80%;
 }
 
+.darkcolor .box02 img{
+  box-shadow: 5px 5px 5px #b9f2ff;
+}
+
+
 }
 
 
 @media (min-width:1300px) {
   .mainplanner {
-    height: 100vh;
     width: 100vw;
     display: grid;
     grid-template-columns: 100px 1fr 1fr 1fr 100px;
-    grid-template-rows: 25px 1fr 1fr  50px 1fr;
+    grid-template-rows: 25px 0.8fr 1fr  50px 170px;
     grid-gap: 10px;
   }  
 
   .insideplanner {
     display: grid;
     grid-template-columns: 50px 1fr 1fr 1fr 50px;
-    grid-template-rows: 25px 1fr 1fr 30px 1fr;
+    grid-template-rows: 25px 50px 1fr 30px 170px;
     grid-gap: 10px;
     width: 100vw;
-    height: 100vh;
     justify-content: center;
   }
 
