@@ -39,6 +39,8 @@
 
 .darkcolor .card p {
     color: #e3f9ff;
+    font-family: 'ocronec';
+
 }
 
 .darkcolor .card {
@@ -60,10 +62,14 @@
 
 .darkcolor #footer p{
     color: rgb(217, 237, 255);
+    font-family: 'ocronec';
+
 
 }
 
  .darkcolor .resume a {
+    font-family: 'ocronec';
+
     color: rgb(217, 237, 255);
     text-shadow: 0px 0px 5px rgb(217, 237, 255);
  }

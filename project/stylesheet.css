@@ -378,6 +378,7 @@ header banner end
   background: linear-gradient( rgb(157, 114, 255, 0.8), rgba(3, 1, 17, 0.8));
   background-attachment: fixed;
   background-size: 100vw;
+  font-family: 'ocronec';
 }
 
 /* .darkcolor .content {
@@ -388,6 +389,8 @@ header banner end
 
 .darkcolor .tiange01 {
   background-color: transparent;
+  font-family: 'ocronec';
+
 }
 
 .darkcolor #home {
@@ -415,10 +418,13 @@ header banner end
 
 .darkcolor .tiange01 a, .darkcolor  h1{
   color: #b9f2ff;
+  font-family: 'ocronec';
+
 }
 
 .darkcolor  h1 {
   text-shadow: 1px 1px 10px  #b9f2ff;
+  font-family: 'ocronec';
 
 }
 
@@ -428,6 +434,8 @@ header banner end
 }
 .darkcolor .content h2{ 
   color: #2b2b2b;
+  font-family: 'ocronec';
+
 }
 
 .darkcolor .box img {
@@ -459,6 +467,8 @@ header banner end
 .lightcolor h2, .lightcolor h1, .darkcolor #notop p, .darkcolorfooter p, .darkcolor h2 {
   color: #b9f2ff;
   text-shadow: 0px 0px 5px rgb(232, 235, 255) !important;
+  font-family: 'ocronec';
+
 }
 
 /* {

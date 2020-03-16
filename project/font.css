@@ -116,3 +116,30 @@
     font-style: italic;
 
 }
+
+@font-face {
+    font-family: 'retroscapeli';
+    src: url('font/retroscapeIiRegular.woff2') format('woff2'),
+         url('font/retroscapeIiRegular.woff') format('woff');
+         font-weight: normal;
+         font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'goodtimes';
+    src: url('font/goodtimesallfontnet.woff2') format('woff2'),
+         url('font/goodtimesallfontnet.woff') format('woff');
+         font-weight: normal;
+         font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ocronec';
+    src: url('font/ocronecttallfontnet.woff2') format('woff2'),
+         url('font/ocronecttallfontnet.woff') format('woff');
+         font-weight: normal;
+         font-style: normal;
+
+}
