@@ -752,14 +752,15 @@ information
 }
 
 #homepage {
-  position: fixed;
+  position: absolute;
   bottom: 0.4rem;
   right: 0.2rem;
   z-index: 99;
 }
 
-#homepage button{
+#homepage .button01{
   color: antiquewhite;
+
 	padding:8px 20px;
 	outline:0;
 	border: 2px solid transparent;
@@ -773,15 +774,19 @@ information
 
 }
 
+#homepage .button01 a{
+  color: antiquewhite;
+}
+
 span a {
   text-decoration: none;
 }
 
-#homepage button :hover {
+#homepage .button01 :hover {
   font-style: italic;
   text-decoration: underline;
 }
 
-#homepage button :visited{
-  color: antiquewhite;
+#homepage .button01 a :visited{
+  color: rgb(255, 225, 185);
 }
