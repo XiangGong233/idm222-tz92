@@ -751,6 +751,37 @@ information
   /* position: absolute; */
 }
 
+#homepage {
+  position: fixed;
+  bottom: 0.4rem;
+  right: 0.2rem;
+  z-index: 99;
+}
 
+#homepage button{
+  color: antiquewhite;
+	padding:8px 20px;
+	outline:0;
+	border: 2px solid transparent;
+	font-size: 1rem;
+  font-weight:600;
+	background:transparent;
+	border-radius:5px;
+	margin:0 auto;
+	cursor:pointer;
+  font-family: 'montserrat', Arial, Helvetica, sans-serif;
 
+}
 
+span a {
+  text-decoration: none;
+}
+
+#homepage button :hover {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#homepage button :visited{
+  color: antiquewhite;
+}
