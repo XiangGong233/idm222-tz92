@@ -230,8 +230,8 @@ a:hover {
 
 .theme-container {
   position: fixed;
-  top: 0.5rem;
-  right: 0.5rem;
+  top: 0.9rem;
+  right: 0.9rem;
   appearance: none;
   z-index: 99;
 }
@@ -925,6 +925,14 @@ text-decoration: none;
     margin-bottom: 0;
   }
 
+/* CSS Document */
+
+
+
+
+	
+
+
 /* -------------------
 other pages
 ----------------- */
@@ -1011,7 +1019,7 @@ other pages
 
 
 .navigation {
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: rgb(0, 0, 0, 0.4);
     flex-direction: row;
     font-size: 1.2rem;
@@ -1023,16 +1031,21 @@ other pages
     z-index: 99;
 }
 
-.navigation li {
+/* .navigation li {
   float: left;
   display: block;
   text-align: center;
-}
+} */
 
 .navigation a {
-  padding: 1rem;
+  padding: 0.3rem;
   color: rgb(255, 251, 247);
   width: 8rem;
+  display:block;
+	color:#FFF;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
 }
 
 .navigation .tg {
@@ -1040,21 +1053,63 @@ other pages
 }
 
 
-#home, #aboutme, #plannerdesign, #zodiac {
+#home, #aboutme, #plannerdesign, #projects {
  background-color: transparent;
  width: 130px;
  /* text-align: center; */
  padding-top: 0.1rem;
 }
 
+#casestudy, #zodiac {
+  background-color: transparent;
+  padding-top: 0.1rem;
+ }
+
+#zodiac a{
+  text-align: left;
+  padding-left: 0.5rem;
+}
+
 .tiange02 :hover {
   color: #2b2b2b;
 }
 
-#home :hover, #aboutme :hover, #plannerdesign :hover, #zodiac :hover{
+#home :hover, #aboutme :hover, #plannerdesign :hover, #projects :hover {
   background-color: rgb(56, 56, 56, 0.8);
+}
+
+#home :hover, #aboutme :hover, #plannerdesign :hover {
   font-weight: bold;
 }
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute; 
+  top: 70px; 
+  list-style: none;
+}
+
+nav ul ul li{
+  list-style: none;
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+  display:inherit;
+  background-color: rgb(56, 56, 56, 0.8);
+  
+}
+	
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+  padding-left: 1rem;
+	width:160px;
+	float:none;
+	display:list-item;
+  position: relative;
+}
+
 
 
 main {
