@@ -2,14 +2,6 @@
 
 @media (min-width: 1300px) {
 
-  #header002 {
-    display: block;
-}
-
-#header001 {
-  display: none;
-}
-
     #topmargin {
       grid-area: 2 / 2 / 3 / 4 ;
       border: 3px solid rgb(75, 75, 75, 0.6)  ;
@@ -47,7 +39,7 @@
     }
     
     .content {
-      padding-top: 7rem;
+      padding-top: 8rem;
     }
     
     .image-wrapper {

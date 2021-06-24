@@ -156,9 +156,9 @@
       overflow: hidden;
   } */
   
-  /* #header001 {
+  #header001 {
     display: none;
-  } */
+  }
   
   .tiange01 {
     text-align: center;
@@ -272,13 +272,6 @@
     border-style: dashed solid;
     border-width: 0.5rem;
     border-color: rgb(240, 128, 128, 0.4);
-  }
-
-  #menu {
-    position: absolute;
-    width: 800px;
-    height: 700px;
-
   }
   
   }
