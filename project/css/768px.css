@@ -1,0 +1,277 @@
+
+
+@media (min-width: 768px) {
+
+    .darkcolor {
+      background: linear-gradient( rgba(3, 0, 19, 0.8), rgba(3, 1, 17, 0.8)), url(../images/washitape.jpg) no-repeat;
+      background-attachment: fixed;
+      background-size: 100vw;
+    }
+  
+    .darkcolor #home {
+      background-color: rgb(255, 179, 253, 0.4) ;
+      padding: 0.3rem 0;
+    }
+    
+    .darkcolor #aboutme {
+      background-color: rgb(255, 179, 253, 0.6);
+      padding: 0.3rem 0;
+    
+    }
+    
+    .darkcolor #plannerdesign {
+      background-color: rgb(255, 179, 253, 0.8);
+      padding: 0.3rem 0;
+    
+    }
+  
+    .darkcolor #zodiac {
+      background-color: rgb(255, 179, 253, 0.9);
+      padding: 0.3rem 0;
+    
+    }
+  
+    .darkcolor #notop {
+      background-color: rgba(3, 0, 19, 0.4);
+      border-color: rgb(106, 90, 205, 0.8);
+    }
+  
+    .darkcolor .tiange01 {
+      /* background-color: rgba(172, 90, 205, 0.8); */
+      background: linear-gradient(rgb(106, 90, 205, 0.5), rgba(172, 90, 205, 0.5));
+    }
+  
+    .darkcolor .tiange01 a, .darkcolor  h1{
+      color: rgb(106, 90, 205);
+    }
+  
+    /* header banner start */
+    .header-banner {
+      display: block;
+      background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/washitape03.jpg) no-repeat;
+      height: 900px;
+      background-size: cover;
+      background-position: center;
+      background-color: #cccccc;
+    }
+    
+    .benner-info p {
+      font-size: 2rem;
+    }
+  
+    .banner-content {
+      position: relative;  
+      padding-top: 15rem;
+    }
+    
+    .banner-border {
+      width: 420px;
+      border: 2px solid rgba(255, 255, 255, 0.75);
+      margin: 0 auto;
+      padding: 10px;
+    }
+    
+    .banner-border .banner-info {
+      background: rgba(255, 255, 255, 0.75);
+      width: 396px;
+      margin: 0;
+      padding: 50px 0;
+    }
+    
+    .banner-info {
+      background: rgba(255, 255, 255, 0.75);
+      width: 400px;
+      margin: 0 auto;
+      padding: 50px 0;
+    }
+    
+    .banner-info h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .banner-info p {
+      margin-bottom: 0;
+    }
+  
+  /* -------------------
+  other pages
+  ----------------- */
+  
+  
+  .inpage{
+    display: block;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/washitape03.jpg) no-repeat;
+    height: 200px !important;
+    background-size: cover;
+    background-position: bottom;
+    background-color: #cccccc;
+  }
+  
+  .inpagetext {
+    display: none;
+    position: relative;  
+    padding-top: 2rem;
+  }
+  
+  /* .inpagetext div div h1 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .inpagetext div div {
+    padding: 1rem!important;
+  } */
+  
+  @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+       transform: translateY(0);
+    }
+      40% {
+       transform: translateY(-30px);
+    }
+      60% {
+       transform: translateY(-15px);
+    }
+  }
+  
+  .arrow {
+    position: relative;
+    margin: 13rem auto 1rem; 
+    max-width: 3rem;
+    filter: invert(80%);
+    animation: bounce 2s infinite;
+    /* transition: 2s ease-in-out; */
+  }
+  
+  
+  
+  
+  
+  /* header banner end */
+    
+    /* .header_image01 {
+      width: 100%; 
+      height: 250px; 
+      overflow: hidden;
+  } */
+  
+  #header001 {
+    display: none;
+  }
+  
+  .tiange01 {
+    text-align: center;
+  }
+  .tiange02 {
+    display: none;
+  }
+  .navigation {
+    flex-direction: row;
+  }
+  
+  #home, #aboutme, #plannerdesign, #zodiac {
+    width: 100%;
+  }
+  
+  main {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 1fr 50px;
+    grid-template-rows: 30px 1fr 0.5fr 0.5fr 1fr 0.8fr 30px;
+    /* grid-gap: 10px; */
+  }
+  
+  
+  
+  /* biaoqingbao image class*/
+  /* biaoqingbao image class*/
+  /* biaoqingbao image class*/
+  /* biaoqingbao image class*/
+  
+  
+  
+  #topmargin {
+    margin: 0;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgb(209, 209, 209);
+    margin: 0rem;
+    max-width: 75%;
+    grid-area: 2 / 2 / 3 / 3;
+    justify-self: center;
+    align-items: center;
+  }
+  
+  /* paragraph box */
+  /* paragraph box */
+  /* paragraph box */
+  /* paragraph box */
+  
+  .text {
+    display: flexbox;
+    flex-direction: column;
+    grid-area: 2 / 3 / 4 / 5;
+  
+  
+  }
+  
+  /* paragraph classname */
+  /* .indexcard {
+    grid-area: 2 / 3 / 4 / 5;
+    grid-column: 3 / 6;
+    grid-row: 1 / 3;
+  } */
+  
+  
+  /* planner img */
+  /* planner img */
+  /* planner img */
+  /* planner img */
+  
+  .box-box  {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr ;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    grid-area: 4 / 2 / 6 / 5 ;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .container {
+      max-width: 90%;
+      margin: 0rem auto;
+  }
+  
+  #top {
+    margin-top: 0;
+  }
+  
+  .content {
+  bottom: 1.5rem;
+  margin: 0 auto;
+  max-width: 100%;
+  position: absolute;
+  width: 100%;
+  text-decoration: none;
+  }
+  
+  
+  /* browse web */
+  /* browse web */
+  /* browse web */
+  /* browse web */
+  
+  #notop {
+    grid-area: 6 / 2 / 7 / 5;
+    padding: 2rem!important;
+    margin-bottom: 2rem!important;
+    margin-top: 2rem!important;
+    font-size: 1.2rem;
+    background-color: rgb(255, 250, 203);
+    border-style: dashed solid;
+    border-width: 0.5rem;
+    border-color: rgb(240, 128, 128, 0.4);
+  }
+  
+  }
