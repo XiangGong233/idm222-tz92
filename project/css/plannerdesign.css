@@ -15,10 +15,9 @@
     text-align: center;
   }
 
-  .left {
-    padding: 0 0 0 0.5rem;
-    text-align: left;
-  }
+#pdh1 {
+  margin-bottom: 3rem;
+}
 
 .box {
   padding: 0 !important;
@@ -37,57 +36,66 @@
 } */
 
 .box img {
-  border-radius: 20px;
-  box-shadow: 10px -10px rgb(253, 237, 144);
+  /* border-radius: 20px; */
+  /* box-shadow: 10px -10px rgb(253, 237, 144); */
   padding: 0rem 0rem 0rem;
 }
 
 .container {
-  max-width: 65%;
-  margin: 2rem auto;
-  padding: 0.2rem;
+  max-width: 90%;
+  margin: 1rem auto;
+  /* padding: 0.2rem; */
   position: relative;
 }
 
-.container02:last-child {
-  margin-bottom: 2rem;;
-}
 
 .content {
-  background: rgba(255, 255, 229, 0.6);
-  bottom: 3rem;
+  background: rgba(255, 255, 255, 0.7);
+  bottom: 0.3rem;
   margin: 0 auto;
   max-width: 100%;
   position: absolute;
   width: 100%;
+  height: 120px;
+  justify-content: center;
+  padding: 2rem;
+
+}
+
+.content h2, .content p {
+  color: rgb(77, 77, 77);
 }
 
 video {
   height: auto;
-  padding: 0.5rem;
+  /* padding: 0.5rem; */
+  margin-top: 4rem;
+  margin-bottom: 2rem;
   width: 90%;
 }
 
 .container02 {
 
-margin: 1rem;
+margin: 0.5rem;
   padding: 0.2rem;
-  width: 65%;
+  width: 90%;
 }
 
 
 
 .box02 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   padding: 0 !important;
   display: flex;  
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .box02 img {
-  border-radius: 20px;
-  box-shadow: 0px 0px 3px 3px rgb(255, 254, 177); 
+  /* border-radius: 20px; */
+  /* box-shadow: 0px 0px 3px 3px rgb(255, 254, 177);  */
   padding: 0rem 0rem 0rem;
 }
 
@@ -104,6 +112,52 @@ justify-content: center;
   content: "";
   display: table;
 }
+
+.pdbanner, .amubanner{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/whatilike/zelda.jpg)  !important;
+  height: 700px;
+  background-size: 1000px 1000px !important;
+  background-position: 15% 40% !important;
+  background-color: #cccccc;
+}
+
+.foodbanner {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/food/changqidangao-min.jpg)  !important;
+  height: 700px;
+  background-size: 800px 800px !important;
+  background-position: 15% 70% !important;
+  background-color: #cccccc;
+}
+
+.joubanner {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/journal/xingqiudianyingpiao.jpg)  !important;
+  height: 700px;
+  background-size: 800px 800px !important;
+  background-position: 15% 20% !important;
+  background-color: #cccccc;
+}
+
+.trabanner {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/travel/jiazhou.jpg)  !important;
+  height: 700px;
+  background-size: 800px 800px !important;
+  background-position: 90% 50% !important;
+  background-color: #cccccc;
+}
+
+.collbanner {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/pintie/gufeng.jpg)  !important;
+  height: 700px;
+  background-size: 800px 800px !important;
+  background-position: 3% 50% !important;
+  background-color: #cccccc;
+}
+
+.plannerh2 {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
 
 /* main finish */
 
