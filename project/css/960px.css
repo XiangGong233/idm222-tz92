@@ -238,10 +238,10 @@
     main {
       display: grid;
       grid-template-columns: 50px 1fr 1fr 1fr 1fr 1fr  50px;
-      grid-template-rows: 100px 1fr 100px 1fr 1fr  170px 50px;
+      grid-template-rows: 100px 0.5fr 100px 0.8fr 0.8fr  ;
     }
     
-    #topmargin {
+    #myphoto {
       grid-area: 2 / 2 / 3 / 4 ;
       border: 3px solid rgb(75, 75, 75, 0.6)  ;
       padding: 1rem 1rem 2.5rem;
@@ -255,7 +255,7 @@
       margin-top: 3rem;
     }
     
-    #topmargin:hover {
+    #myphoto:hover {
       transform: rotate(5deg);
     }
     
@@ -268,11 +268,11 @@
       grid-area: 2 / 4 / 3 / 7 ;
       position: relative;
       padding: 2rem;
-      margin-bottom: 5rem;
+      margin-bottom: 3rem;
       font-size: 1.1rem;
-      margin-right: 50px;
-      border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-      border:dashed 5px rgb(119, 117, 110);
+      /* margin-right: 50px; */
+      /* border-radius: 255px 15px 225px 15px/15px 225px 15px 255px; */
+      /* border:dashed 5px rgb(119, 117, 110); */
     
     }
     
@@ -487,7 +487,7 @@
       background-position: center;
     }
     
-    .darkcolor #topmargin{
+    .darkcolor #myphoto{
       background-color: rgb(106, 90, 205, 0.1);
       box-shadow: 0px 0px 5px rgb(162, 171, 255);
     
