@@ -357,9 +357,9 @@ a :visited, a :active {
 #menu {
   position: absolute;
   width: 450px;
-  height: 700px;
+  height: 1000px;
   margin: -100px 0 0 -50px;
-  padding: 50px;
+  /* padding: 50px; */
   padding-top: 125px;
   background: #ededed;
   list-style-type: none;
