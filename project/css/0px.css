@@ -354,13 +354,21 @@ a :visited, a :active {
   transform: rotate(-45deg) translate(2px, -1.5px);
 }
 
+#menutoggle input:checked ~ ul {
+  transform: none;
+}
+
+#menu li input {
+  cursor: pointer;
+}
+
 #menu {
   position: absolute;
   width: 450px;
   height: 1000px;
   margin: -100px 0 0 -50px;
   /* padding: 50px; */
-  padding-top: 125px;
+  padding-top: 15rem;
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -374,10 +382,67 @@ a :visited, a :active {
   font-size: 22px;
   margin-left: -1rem;
 }
+#menu input {
+  display: block;
+  width: 110px;
+  height: 30px;
+  position: absolute;
+  /* background-color: rgb(184, 242, 255, 0.5); */
+  z-index: 99;
+  margin-left: 10rem;
+  top: 25.5rem;
+  -webkit-touch-callout: none;
 
-#menutoggle input:checked ~ ul {
-  transform: none;
 }
+
+
+
+#projectul li a{
+  color: #ededed;
+}
+
+#menu input:checked ~ #projectul {
+  transform: translate(0, -50%);
+}
+
+#menu input:checked ~ #menu input {
+  margin-top: 1rem;
+}
+
+nav ul ul {
+  /* display: none; */
+  position: relative; 
+  top: 0;
+  margin-top: -3rem;
+  background-color: #857070;
+  height: 100%;
+  padding-top: 12rem;
+  list-style: none;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, -50%);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.02, 1.0);
+}
+
+nav ul ul li{
+list-style: none;
+font-weight: normal;
+
+}
+  
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+/* display:inherit; */
+background-color: rgb(56, 56, 56, 0.8);
+
+}
+  
+/* Fisrt Tier Dropdown */
+
+
+
+
+
+
 
 @media (min-width: 0px) {
     /* header banner start */
