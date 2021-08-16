@@ -1,6 +1,17 @@
 
 
 @media (min-width: 960px) {
+  #introbd {
+    display: none;
+  }
+
+  #header002 {
+    display: block;
+}
+
+#header001 {
+  display: none;
+}
 
 
     /* header banner start */
@@ -49,12 +60,7 @@
       }
     
     /* CSS Document */
-    
-    
-    
-    
-        
-    
+
     
     /* -------------------
     other pages
@@ -75,15 +81,7 @@
       position: relative;  
       padding-top: 6rem;
     }
-    /* 
-    .inpagetext div div h1 {
-      font-size: 20px;
-      margin: 0;
-    }
-    
-    .inpagetext div div {
-      padding: 1rem!important;
-    } */
+
     
     @keyframes bounce {
         0%, 20%, 50%, 80%, 100% {
@@ -161,24 +159,27 @@
     } */
     
     .navigation a {
-      padding: 0.3rem;
+      /* padding: 0.3rem; */
       color: rgb(255, 251, 247);
-      width: 8rem;
+      /* width: 8rem; */
       display:block;
         color:#FFF;
         font-size:20px;
-        line-height: 60px;
+        line-height: 70px;
         text-decoration:none;
+        padding: 0rem;
+        text-align: center;
     }
     
     .navigation .tg {
       width: 4rem;
     }
     
-    
+    /* individual menu length */
+
     #home, #aboutme, #projects {
      background-color: transparent;
-     width: 130px;
+     width: 160px;
      /* text-align: center; */
      padding-top: 0.1rem;
     }
@@ -198,11 +199,24 @@
     }
     
     /* Hide Dropdowns by Default */
-    nav ul ul {
+    /* nav ul ul {
         display: none;
         position: absolute; 
       top: 70px; 
       list-style: none;
+    } */
+
+    nav ul #dropdown {
+      display: none;
+      position: absolute; 
+      top: 70px;
+      margin-top: 0rem;
+      height: 390%;
+      padding-top: 0rem;
+      list-style: none;
+      transform-origin: 0% 0%;
+      transform: translate(0%, 0%);
+      transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.02, 1.0);
     }
     
     nav ul ul li{
@@ -212,7 +226,7 @@
     }
         
     /* Display Dropdowns on Hover */
-    nav ul li:hover > ul {
+    nav ul #projects:hover > #dropdown {
       display:inherit;
       background-color: rgb(56, 56, 56, 0.8);
       
@@ -220,7 +234,7 @@
         
     /* Fisrt Tier Dropdown */
     nav ul ul li {
-      padding-left: 1rem;
+      /* padding-left: 1rem; */
         width:160px;
         float:none;
         display:list-item;
@@ -241,12 +255,12 @@
       padding: 1rem 1rem 2.5rem;
       border-radius: 0;
       /* justify-self: end; */
-      align-self: flex-start;
-      transition-duration: 0.5s;
+      align-self: normal;
+      justify-self: normal;
       max-width: 60%;
-      /* margin-right: 3rem; */
-      margin-left: 3rem;
-      margin-top: 3rem;
+      margin-top: 2rem;
+      margin-left: 15rem;
+    
     }
     
     #myphoto:hover {
@@ -264,6 +278,9 @@
       padding: 2rem;
       margin-bottom: 3rem;
       font-size: 1.1rem;
+      max-width: 60%;
+      margin-left: 5rem;
+      padding: 2rem 1rem 2.5rem;
       /* margin-right: 50px; */
       /* border-radius: 255px 15px 225px 15px/15px 225px 15px 255px; */
       /* border:dashed 5px rgb(119, 117, 110); */
@@ -295,6 +312,10 @@
       display: none;
     }
     
+    .indexcard p, .indexcard h1 {
+      color: black;
+    }
+
     .box-box  {
       display: grid;
       grid-template-columns:  1fr  1fr  1fr;
@@ -304,7 +325,7 @@
       grid-area: 4 / 2 / 6 / 7 ;
       grid-gap: 20px;
       /* margin-right: 5rem; */
-      margin: 2rem auto !important;
+      margin: 4rem auto !important;
       /* width: 100%; */
       max-width: 100%;
       max-height: 100%;
@@ -327,6 +348,8 @@
     
     .content {
       display: block;
+      padding-top: 9rem;
+
       
     }
     
@@ -393,7 +416,10 @@
     .image-wrapper {
       margin: 0 auto;
       overflow: hidden;
+      perspective: 500px; 
+
     }
+
     img {
       transition: transform 0.5s ease-in-out;
     }
@@ -445,8 +471,14 @@
     .navigation li a {
       color: rgb(255, 251, 247);
     }
+
+    #feelfree {
+      font-family: 'montserrat', Arial, Helvetica, sans-serif;
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+    }
     
-    .darkcolor #home {
+    /* .darkcolor #home {
       background-color: transparent;
       padding: 0.1rem 0rem 0rem;
     }
@@ -498,13 +530,13 @@
     
     .darkcolorfooter {
       background-color: rgb(106, 90, 205);
-    }
+    } */
     
     /* .lightcolor {
       color: antiquewhite;
     } */
     
-    .lightcolor p {
+    /* .lightcolor p {
       color: rgb(217, 237, 255);
     
     }
@@ -531,9 +563,9 @@
     
     } */
     
-    .lightcolor a {
+    /*.lightcolor a {
       color: rgb(165, 185, 204)!important;
-    }
+    } */
     
     
     }

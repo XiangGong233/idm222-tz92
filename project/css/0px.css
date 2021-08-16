@@ -300,6 +300,8 @@ a :visited, a :active {
   text-decoration: none;
   color: #232323;
   transition: color 0.3s ease;
+  display: block;
+  width: 100%;
 }
 
 #menutoggle input {
@@ -364,9 +366,9 @@ a :visited, a :active {
 
 #menu {
   position: absolute;
-  width: 450px;
-  height: 1000px;
-  margin: -100px 0 0 -50px;
+  width: 100vw;
+  height: 100vh;
+  margin: -100px 0 0 -20px;
   /* padding: 50px; */
   padding-top: 15rem;
   background: #ededed;
@@ -380,7 +382,8 @@ a :visited, a :active {
 #menu li {
   padding: 25px 0;
   font-size: 22px;
-  margin-left: -1rem;
+  /* margin-left: -1rem; */
+  /* width: 400%; */
 }
 #menu input {
   display: block;
@@ -415,8 +418,9 @@ nav ul ul {
   top: 0;
   margin-top: -3rem;
   background-color: #857070;
-  height: 100%;
-  padding-top: 12rem;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 10rem;
   list-style: none;
   transform-origin: 0% 0%;
   transform: translate(-100%, -50%);
