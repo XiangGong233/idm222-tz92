@@ -150,6 +150,7 @@
         width: 100%;
         top: 0;
         z-index: 99;
+        height: 4.5rem;
     }
     
     /* .navigation li {
@@ -208,6 +209,7 @@
 
     nav ul #dropdown {
       display: none;
+      width: 11%;
       position: absolute; 
       top: 70px;
       margin-top: 0rem;
@@ -235,7 +237,7 @@
     /* Fisrt Tier Dropdown */
     nav ul ul li {
       /* padding-left: 1rem; */
-        width:160px;
+        width:160px !important;
         float:none;
         display:list-item;
       position: relative;
@@ -425,7 +427,7 @@
     }
     
     .content {
-      padding-top: 5rem;
+      padding-top: 30%;
     }
     
     .image-wrapper:hover img {
